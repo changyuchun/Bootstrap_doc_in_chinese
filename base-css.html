@@ -57,7 +57,7 @@
                 <a href="./javascript.html">Javascript UI库</a>
               </li>
               <li class="">
-                <a href="./less.html">在Bootsrap中应用LESS</a>
+                <a href="./less.html">在Bootstrap中应用LESS</a>
               </li>
               <li class="divider-vertical"></li>
               <li class="">
@@ -188,11 +188,11 @@
     <div class="span4">
       <h3>U使用强调</h3>
       <p><a href="#">Fusce dapibus</a>, <strong>tellus ac cursus commodo</strong>, <em>tortor mauris condimentum nibh</em>, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue.</p>
-      <p><strong>Note:</strong> Feel free to use <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> in HTML5, but their usage has changed a bit. <code>&lt;b&gt;</code> is meant to highlight words or phrases without conveying additional importance while <code>&lt;i&gt;</code> is mostly for voice, technical terms, etc.</p>
+      <p><strong>提示：</strong>在HTML中<code>&lt;b&gt;</code><code>&lt;i&gt;</code>的用法有点不一样。<code>&lt;b&gt;</code> is meant to highlight words or phrases without conveying additional importance while <code>&lt;i&gt;</code> is mostly for voice, technical terms, etc.</p>
     </div>
     <div class="span4">
-      <h3>Example addresses</h3>
-      <p>Here are two examples of how the <code>&lt;address&gt;</code> tag can be used:</p>
+      <h3>地址 例子</h3>
+      <p>这有两个例子展示<code>&lt;address&gt;</code>标签如何被使用：</p>
       <address>
         <strong>Twitter, Inc.</strong><br>
         795 Folsom Ave, Suite 600<br>
@@ -205,9 +205,9 @@
       </address>
     </div>
     <div class="span4">
-      <h3>Example abbreviations</h3>
-      <p>Abbreviations with a <code>title</code> attribute have a light dotted bottom border and a help cursor on hover. This gives users extra indication something will be shown on hover.</p>
-      <p>Add the <code>initialism</code> class to an abbreviation to increase typographic harmony by giving it a slightly smaller text size.</p>
+      <h3>缩略词 例子</h3>
+      <p>带有<code>title</code>属性的缩略词会被显示成有点状下划线的，在hover状态下有帮助提示的形态。</p>
+      <p>在加入了<code>initialism</code>类后，这个缩略词会比其正常状态略微小一点。 to an abbreviation to increase typographic harmony by giving it a slightly smaller text size.</p>
       <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> is the best thing since sliced bread.</p>
       <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
     </div>
@@ -215,13 +215,13 @@
 
 
   <!-- Blockquotes -->
-  <h2>Blockquotes</h2>
+  <h2>引用</h2>
   <table class="table table-bordered table-striped">
     <thead>
       <tr>
-        <th>Element</th>
-        <th>Usage</th>
-        <th>Optional</th>
+        <th>元素Element</th>
+        <th>用法</th>
+        <th>选项</th>
       </tr>
     </thead>
     <tbody>
@@ -230,11 +230,11 @@
           <code>&lt;blockquote&gt;</code>
         </td>
         <td>
-          Block-level element for quoting content from another source
+        一个用来引入内容的块级别元素
         </td>
         <td>
-          <p>Add <code>cite</code> attribute for source URL</p>
-          Use <code>.pull-left</code> and <code>.pull-right</code> classes for floated options
+          <p>添加<code>cite</code>属性来指向URL</p>
+          使用<code>.pull-left</code>和<code>.pull-right</code>类作为浮动方向的选项
         </td>
       </tr>
       <tr>
@@ -242,7 +242,7 @@
           <code>&lt;small&gt;</code>
         </td>
         <td>
-          Optional element for adding a user-facing citation, typically an author with title of work
+         这是用来显示出引用块的作者是谁的元素
         </td>
         <td>
           Place the <code>&lt;cite&gt;</code> around the title or name of source
@@ -252,8 +252,8 @@
   </table>
   <div class="row">
     <div class="span4">
-      <p>To include a blockquote, wrap <code>&lt;blockquote&gt;</code> around any <abbr title="HyperText Markup Language">HTML</abbr> as the quote. For straight quotes we recommend a <code>&lt;p&gt;</code>.</p>
-      <p>Include an optional <code>&lt;small&gt;</code> element to cite your source and you'll get an em dash <code>&amp;mdash;</code> before it for styling purposes.</p>
+      <p>将<code>&lt;blockquote&gt;</code>包裹在其他标签外可以直接创建一个引用。
+      <p>添加了可选的<code>&lt;small&gt;</code>元素后，它会在前面产生一个1em长度<code>&amp;mdash;</code>破折号在前面作为装饰用。</p>
     </div>
     <div class="span8">
 <pre class="prettyprint linenums">
@@ -265,17 +265,17 @@
     </div>
   </div><!--/row-->
 
-  <h3>Example blockquotes</h3>
+  <h3>引用 例子</h3>
   <div class="row">
     <div class="span6">
-      <p>Default blockquotes are styled as such:</p>
+      <p>默认的引用块会是这个样子</p>
       <blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
         <small>Someone famous in <cite title="">Body of work</cite></small>
       </blockquote>
     </div>
     <div class="span6">
-      <p>To float your blockquote to the right, add <code>class="pull-right"</code>:</p>
+      <p>要将应用块向右浮动，添加<code>class="pull-right"</code>：</p>
       <blockquote class="pull-right">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
         <small>Someone famous in <cite title="">Body of work</cite></small>
@@ -285,10 +285,10 @@
 
 
   <!-- Lists -->
-  <h2>Lists</h2>
+  <h2>列表</h2>
   <div class="row">
     <div class="span4">
-      <h3>Unordered</h3>
+      <h3>无序列表</h3>
       <p><code>&lt;ul&gt;</code></p>
       <ul>
         <li>Lorem ipsum dolor sit amet</li>
@@ -309,7 +309,7 @@
       </ul>
     </div>
     <div class="span4">
-      <h3>Unstyled</h3>
+      <h3>无格式列表</h3>
       <p><code>&lt;ul class="unstyled"&gt;</code></p>
       <ul class="unstyled">
         <li>Lorem ipsum dolor sit amet</li>
@@ -330,7 +330,7 @@
       </ul>
     </div>
     <div class="span4">
-      <h3>Ordered</h3>
+      <h3>有序列表</h3>
       <p><code>&lt;ol&gt;</code></p>
       <ol>
         <li>Lorem ipsum dolor sit amet</li>
@@ -347,7 +347,7 @@
   <br>
   <div class="row">
     <div class="span4">
-      <h3>Description</h3>
+      <h3>描述</h3>
       <p><code>&lt;dl&gt;</code></p>
       <dl>
         <dt>Description lists</dt>
@@ -360,7 +360,7 @@
       </dl>
     </div>
     <div class="span8">
-      <h3>Horizontal description</h3>
+      <h3>同一水平线上的描述</h3>
       <p><code>&lt;dl class="dl-horizontal"&gt;</code></p>
       <dl class="dl-horizontal">
         <dt>Description lists</dt>
@@ -381,19 +381,19 @@
 ================================================== -->
 <section id="code">
   <div class="page-header">
-    <h1>Code <small>Inline and block code snippets</small></h1>
+    <h1>代码块 <small>行内代码块与块级代码块</small></h1>
   </div>
   <div class="row">
     <div class="span4">
-      <h2>Inline</h2>
-      <p>Wrap inline snippets of code with <code>&lt;code&gt;</code>.</p>
+      <h2>行内代码块</h2>
+      <p>将代码片段用<code>&lt;code&gt;</code>元素包裹即可。</p>
 <pre class="prettyprint linenums">
 For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
 </pre>
     </div><!--/span-->
     <div class="span4">
-      <h2>Basic block</h2>
-      <p>Use <code>&lt;pre&gt;</code> for multiple lines of code. Be sure to escape any angle brackets in the code for proper rendering.</p>
+      <h2>基本代码块</h2>
+      <p>将代码块用<code>&lt;pre&gt;</code>元素包裹即为多行代码块。 Be sure to escape any angle brackets in the code for proper rendering.</p>
 <pre>
 &lt;p&gt;Sample text here...&lt;/p&gt;
 </pre>
@@ -428,10 +428,10 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
 ================================================== -->
 <section id="tables">
   <div class="page-header">
-    <h1>Tables <small>For, you guessed it, tabular data</small></h1>
+    <h1>表格 <small>将数据表格化展示</small></h1>
   </div>
 
-  <h2>Table markup</h2>
+  <h2>表格标记</h2>
   <div class="row">
     <div class="span8">
       <table class="table table-bordered table-striped">
@@ -441,8 +441,8 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
         </colgroup>
         <thead>
           <tr>
-            <th>Tag</th>
-            <th>Description</th>
+            <th>标签</th>
+            <th>描述</th>
           </tr>
         </thead>
         <tbody>
@@ -451,7 +451,7 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
               <code>&lt;table&gt;</code>
             </td>
             <td>
-              Wrapping element for displaying data in a tabular format
+              将元素作为表格显示
             </td>
           </tr>
           <tr>
@@ -526,41 +526,41 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
     </div>
   </div>
 
-  <h2>Table options</h2>
+  <h2>表格选项</h2>
   <table class="table table-bordered table-striped">
   <thead>
       <tr>
-        <th>Name</th>
-        <th>Class</th>
-        <th>Description</th>
+        <th>名称</th>
+        <th>CSS类</th>
+        <th>描述</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Default</td>
+        <td>默认</td>
         <td class="muted">None</td>
-        <td>No styles, just columns and rows</td>
+        <td>没有格式，只有列和行</td>
       </tr>
       <tr>
-        <td>Basic</td>
+        <td>基本</td>
         <td>
           <code>.table</code>
         </td>
-        <td>Only horizontal lines between rows</td>
+        <td>在每一行之间仅仅有水平线</td>
       </tr>
       <tr>
-        <td>Bordered</td>
+        <td>有边框</td>
         <td>
           <code>.table-bordered</code>
         </td>
-        <td>Rounds corners and adds outer border</td>
+        <td>四个圆角并且有外部的边框</td>
       </tr>
       <tr>
         <td>Zebra-stripe</td>
         <td>
           <code>.table-striped</code>
         </td>
-        <td>Adds light gray background color to odd rows (1, 3, 5, etc)</td>
+        <td>在每个奇数行上添加淡灰色的背景颜色</td>
       </tr>
       <tr>
         <td>Condensed</td>
@@ -573,12 +573,12 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
   </table>
 
 
-  <h2>Example tables</h2>
+  <h2>表格例子</h2>
 
-  <h3>1. Default table styles</h3>
+  <h3>默认表格格式</h3>
   <div class="row">
     <div class="span4">
-      <p>Tables are automatically styled with only a few borders to ensure readability and maintain structure. With 2.0, the <code>.table</code> class is required.</p>
+      <p>以确保可读性并且维持结构，表格会自动的格式成仅有几个边框的。With 2.0, the <code>.table</code> class is required.</p>
 <pre class="prettyprint linenums">
 &lt;table class="table"&gt;
   …
@@ -623,7 +623,7 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
   <div class="row">
     <div class="span4">
       <p>Get a little fancy with your tables by adding zebra-striping&mdash;just add the <code>.table-striped</code> class.</p>
-      <p class="muted"><strong>Note:</strong> Striped tables use the <code>:nth-child</code> CSS selector and is not available in IE7-IE8.</p>
+      <p class="muted"><strong>提示：</strong>条纹表格使用<code>:nth-child</code> CSS 选择器所以在IE7-IE8不可用。</p>
 <pre class="prettyprint linenums" style="margin-bottom: 18px;">
 &lt;table class="table table-striped"&gt;
   …
@@ -664,10 +664,10 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
   </div>
 
 
-  <h3>3. Bordered table</h3>
+  <h3>3. 有边框</h3>
   <div class="row">
     <div class="span4">
-      <p>Add borders around the entire table and rounded corners for aesthetic purposes.</p>
+      <p>所有的单元格被边框包围，并且有圆角。</p>
 <pre class="prettyprint linenums">
 &lt;table class="table table-bordered"&gt;
   …
@@ -712,10 +712,10 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
   </div>
 
 
-  <h3>4. Condensed table</h3>
+  <h3>4. 紧凑的表格样式</h3>
   <div class="row">
     <div class="span4">
-      <p>Make your tables more compact by adding the <code>.table-condensed</code> class to cut table cell padding in half (from 8px to 4px).</p>
+      <p>为了使表格更加紧凑，可以添加<code>.table-condensed</code>类。这会使表格内的单元格内边距缩减一半（从8像素到4像素）。</p>
 <pre class="prettyprint linenums" style="margin-bottom: 18px;">
 &lt;table class="table table-condensed"&gt;
   …
@@ -756,7 +756,7 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
 
 
 
-  <h3>5. Combine them all!</h3>
+  <h3>5.将多种格式合并到一个表格上</h3>
   <div class="row">
     <div class="span4">
       <p>Feel free to combine any of the table classes to achieve different looks by utilizing any of the available classes.</p>
@@ -811,60 +811,59 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
 ================================================== -->
 <section id="forms">
   <div class="page-header">
-    <h1>Forms</h1>
+    <h1>表单</h1>
   </div>
   <div class="row">
     <div class="span4">
-      <h2>Flexible HTML and CSS</h2>
-      <p>The best part about forms in Bootstrap is that all your inputs and controls look great no matter how you build them in your markup. No superfluous HTML is required, but we provide the patterns for those who require it.</p>
-      <p>More complicated layouts come with succinct and scalable classes for easy styling and event binding, so you're covered at every step.</p>
+      <h2>灵活的的 HTML 和 CSS</h2>
+      <p>Bootstrap中的表单独到之处是，无论表单元素在 HTML 上有多复杂，它们最终的效果都非常好。无需其他的 HTML 元素，使用一些内建的格式应用在其中即可。</p>
+      <p>更加复杂的布局由简洁的代码和可增改的CSS类完成，这使得表单更易于添加样式并且绑定事件，在构建表单的一开始就是这样。</p>
     </div>
     <div class="span4">
-      <h2>Four layouts included</h2>
-      <p>Bootstrap comes with support for four types of form layouts:</p>
+      <h2>四种表单元素的布局</h2>
+      <p>Bootstrap内建提供了四种类型的布局：</p>
       <ul>
-        <li>Vertical (default)</li>
-        <li>Search</li>
-        <li>Inline</li>
-        <li>Horizontal</li>
+        <li>垂直布局（默认）</li>
+        <li>搜索</li>
+        <li>行内</li>
+        <li>水平布局</li>
       </ul>
-      <p>Different types of form layouts require some changes to markup, but the controls themselves remain and behave the same.</p>
+      <p>不同类型的表单布局在HTML上仅仅有一点不同，但是使用 JS 操控它们的行为确实一样的。</p>
     </div>
     <div class="span4">
-      <h2>Control states and more</h2>
-      <p>Bootstrap's forms include styles for all the base form controls like input, textarea, and select you'd expect. But it also comes with a number of custom components like appended and prepended inputs and support for lists of checkboxes.</p>
-      <p>States like error, warning, and success are included for each type of form control. Also included are styles for disabled controls.</p>
+      <h2>控制表单样式</h2>
+      <p>Bootstrap的表单已经内建了所有的表单元素的样式，不过还有一些自定义的组件可以添加在其中。</p>
+      <p>像 error, warning, and success这些状态已经被添加在表单控制中，还有 disabled 状态的控制。</p>
     </div>
   </div>
 
-  <h2>Four types of forms</h2>
-  <p>Bootstrap provides simple markup and styles for four styles of common web forms.</p>
+  <h2>四种表单布局格式</h2>
   <table class="table table-bordered table-striped">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Class</th>
-        <th>Description</th>
+        <th>名称</th>
+        <th>CSS 类</th>
+        <th>描述</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th>Vertical (default)</th>
+        <th>垂直（默认）</th>
         <td><code>.form-vertical</code> <span class="muted">(not required)</span></td>
-        <td>Stacked, left-aligned labels over controls</td>
+        <td>垂直放置，左对齐的表单标签在最上面</td>
       </tr>
       <tr>
-        <th>Inline</th>
+        <th>行内布局</th>
         <td><code>.form-inline</code></td>
         <td>Left-aligned label and inline-block controls for compact style</td>
       </tr>
       <tr>
-        <th>Search</th>
+        <th>搜索布局</th>
         <td><code>.form-search</code></td>
         <td>Extra-rounded text input for a typical search aesthetic</td>
       </tr>
       <tr>
-        <th>Horizontal</th>
+        <th>水平布局</th>
         <td><code>.form-horizontal</code></td>
         <td>Float left, right-aligned labels on same line as controls</td>
       </tr>
@@ -872,11 +871,11 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
   </table>
 
 
-  <h2>Example forms <small>using just form controls, no extra markup</small></h2>
+  <h2>表单 例子 <small>没有额外的标记</small></h2>
   <div class="row">
     <div class="span3">
-      <h3>Basic form</h3>
-      <p>With v2.0, we have lighter and smarter defaults for form styles. No extra markup, just form controls.</p>
+      <h3>基本表单</h3>
+      <p>从BootstrapV2.0开始，表单更简洁，更智能，没有额外的标记。</p>
     </div>
     <div class="span9">
       <form class="well">
@@ -903,8 +902,8 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
   </div> <!-- /row -->
   <div class="row">
     <div class="span3">
-      <h3>Search form</h3>
-      <p>Reflecting default WebKit styles, just add <code>.form-search</code> for extra rounded search fields.</p>
+      <h3>搜索表单</h3>
+      <p>仅仅添加了<code>.form-search</code>类以添加圆角输入框。</p>
     </div>
     <div class="span9">
       <form class="well form-search">
@@ -921,8 +920,8 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
   </div> <!-- /row -->
   <div class="row">
     <div class="span3">
-      <h3>Inline form</h3>
-      <p>Inputs are block level to start. For <code>.form-inline</code> and <code>.form-horizontal</code>, we use inline-block.</p>
+      <h3>行内表单</h3>
+      <p>Inputs元素默认情况下是块级元素，添加<code>.form-inline</code>和<code>.form-horizontal</code>CSS类使得表单呈行内水平状。</p>
     </div>
     <div class="span9">
       <form class="well form-inline">
@@ -948,12 +947,11 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
 
   <br>
 
-  <h2>Horizontal forms</h2>
+  <h2>水平表单</h2>
   <div class="row">
     <div class="span8">
       <form class="form-horizontal">
         <fieldset>
-          <legend>Controls Bootstrap supports</legend>
           <div class="control-group">
             <label class="control-label" for="input01">Text input</label>
             <div class="controls">
@@ -1292,14 +1290,14 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
 ================================================== -->
 <section id="buttons">
   <div class="page-header">
-    <h1>Buttons</h1>
+    <h1>按钮</h1>
   </div>
   <table class="table table-bordered table-striped">
     <thead>
       <tr>
-        <th>Button</th>
-        <th>class=""</th>
-        <th>Description</th>
+        <th>按钮</th>
+        <th>CSS 类</th>
+        <th>描述</th>
       </tr>
     </thead>
     <tbody>
@@ -1410,7 +1408,7 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
 ================================================== -->
 <section id="icons">
   <div class="page-header">
-    <h1>Icons <small>Graciously provided by <a href="http://glyphicons.com" target="_blank">Glyphicons</a></small></h1>
+    <h1>图标 <small>由<a href="http://glyphicons.com" target="_blank">Glyphicons</a>提供</small></h1>
   </div>
   <div class="row">
     <div class="span3">
@@ -1561,8 +1559,8 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
       <p><a href="http://glyphicons.com" target="_blank">Glyphicons</a> has granted us use of the Halflings set in our open-source toolkit so long as we provide a link and credit here in the docs. Please consider doing the same in your projects.</p>
     </div>
     <div class="span4">
-      <h3>How to use</h3>
-      <p>Bootstrap uses an <code>&lt;i&gt;</code> tag for all icons, but they have no case class&mdash;only a shared prefix. To use, place the following code just about anywhere:</p>
+      <h3>如何使用</h3>
+      <p>使用一个<code>&lt;i&gt;</code>标记用来显示图标，tag for all icons, but they have no case class&mdash;only a shared prefix. To use, place the following code just about anywhere:</p>
 <pre class="prettyprint linenums">
 &lt;i class="icon-search"&gt;&lt;/i&gt;
 </pre>
@@ -1589,8 +1587,8 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
     </div>
   </div>
 
-  <h3>Examples</h3>
-  <p>Use them in buttons, button groups for a toolbar, navigation, or prepended form inputs.</p>
+  <h3>例子</h3>
+  <p>将在这图标应用在按钮中，这些按钮可以组成工具条，导航条，或是表单标签。</p>
   <div class="row">
     <div class="span4">
       <div class="btn-toolbar" style="margin-bottom: 9px">
@@ -1666,7 +1664,9 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <!--
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/google-code-prettify/prettify.js"></script>
     <script src="assets/js/bootstrap-transition.js"></script>
