@@ -1342,14 +1342,14 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
   <div class="row">
     <div class="span4">
       <h3>为动作创建按钮</h3>
-      <p>As a convention, buttons should only be used for actions while hyperlinks are to be used for objects. For instance, "Download" should be a button while "recent activity" should be a link.</p>
-      <p>Button styles can be applied to anything with the <code>.btn</code> class applied. However, typically you'll want to apply these to only <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements.</p>
-      <h3>Cross browser compatibility</h3>
+      <p>为一个动作创建一个按钮，为一个对象创建超链接。这是个惯例。</p><p>例如，“下载”应该是一个按钮，而“最近活动”应该是一个超链接。</p>
+      <p>同过添加<code>.btn</code>类可以为任何元素添加按钮的CSS样式。然而，最好将<code>&lt;a&gt;</code>和<code>&lt;button&gt;</code>作为按钮。</p>
+      <h3>按钮的跨平台问题</h3>
       <p>IE9 doesn't crop background gradients on rounded corners, so we remove it. Related, IE9 jankifies disabled <code>button</code> elements, rendering text gray with a nasty text-shadow that we cannot fix.</p>
     </div>
     <div class="span4">
-      <h3>Multiple sizes</h3>
-      <p>Fancy larger or smaller buttons? Add <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code> for two additional sizes.</p>
+      <h3>创建多种尺寸的按钮</h3>
+      <p>添加<code>.btn-large</code>和<code>.btn-small</code>或<code>.btn-mini</code>标记为大的，或小的按钮。</p>
       <p>
         <button class="btn btn-large btn-primary">Primary action</button>
         <button class="btn btn-large">Action</button>
@@ -1363,8 +1363,8 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.
         <button class="btn btn-mini">Action</button>
       </p>
       <br>
-      <h3>Disabled state</h3>
-      <p>For disabled buttons, add the <code>.disabled</code> class to links and the <code>disabled</code> attribute for <code>&lt;button&gt;</code> elements.</p>
+      <h3>为按钮添加失效状态</h3>
+      <p>超链接添加<code>.disabled</code>类，为<code>&lt;button&gt;</code>添加 <code>disabled</code> 属性。</p>
       <p>
         <a href="#" class="btn btn-large btn-primary disabled">Primary link</a>
         <a href="#" class="btn btn-large disabled">Link</a>
